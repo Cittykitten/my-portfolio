@@ -22,10 +22,10 @@
       <a href="#testimonial">Testimonials</a>
       <a href="#contact"><span class="pink">Contact</span></a>
     </nav>
-    <div class="hamburger" onclick="toggleMenu()">
-      <div></div>
-      <div></div>
-      <div></div>
+    <div class="kebab-menu" onclick="toggleMenu()">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
     </div>
   </header>
 
@@ -38,7 +38,7 @@
     <div class="aboutme-container">
       <div class="about-image">
         <div class="border-box"></div>
-        <img src="images/WhatsApp Image 2025-04-25 at 9.22.57 AM.jpeg" alt="My Profile Picture" />
+        <img src="images/portfoliopic1.jpg" alt="My Profile Picture" />
       </div>
       <div class="about-content">
         <h2>About Me</h2>
@@ -48,7 +48,7 @@
           <!-- <button class="hire btn">Hire Me</button> -->
            <a class="hire btn" href="#contact">Hire me</a>
           <!-- <button class="cv btn">Download CV</button> -->
-        <a href="cv/Emmanuella Tegah CV.docx" download="Emmanuella Esinam Tegah CV" class="cv btn">Download CV</a>
+        <a href="cv/Emmanuella Tegah CV.pdf" download="Emmanuella Esinam Tegah CV" class="cv btn">Download CV</a>
         </div>
       </div>
     </div>
@@ -56,44 +56,181 @@
 
 
 
-  <section id="skills" class="skills">
+  <section class="skills-section">
+  <div class="skills-container">
     <h2>My Skills</h2>
-    
-    <div class="skills-container">
+    <p>Discover my abilities in building clean, user-focused websites with modern tech and a creative edge</p>
+
+    <div class="skills-grid">
       <div class="skill">
-        <label>HTML5 <span>95%</span></label>
-        <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
+        <span>Javascript</span>
+        <div class="bar"><div class="fill" style="width: 90%"></div></div>
+        <span class="percent">90%</span>
       </div>
+
       <div class="skill">
-        <label>CSS3 <span>90%</span></label>
-        <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+        <span>React</span>
+        <div class="bar"><div class="fill" style="width: 85%"></div></div>
+        <span class="percent">85%</span>
       </div>
+
       <div class="skill">
-        <label>react <span>90%</span></label>
-        <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+        <span>HTML5</span>
+        <div class="bar"><div class="fill" style="width: 95%"></div></div>
+        <span class="percent">95%</span>
       </div>
+
       <div class="skill">
-        <label>node.js <span>85%</span></label>
-        <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+        <span>CSS3</span>
+        <div class="bar"><div class="fill" style="width: 90%"></div></div>
+        <span class="percent">90%</span>
       </div>
+
       <div class="skill">
-        <label>Javascript <span>85%</span></label>
-        <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+        <span>WordPress</span>
+        <div class="bar"><div class="fill" style="width: 70%"></div></div>
+        <span class="percent">70%</span>
       </div>
+
       <div class="skill">
-        <label>WordPress <span>90%</span></label>
-        <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
-      </div>
-      <div class="skill">
-        <label>UI / UX <span>95%</span></label>
-        <div class="progress-bar"><div class="progress" style="width: 95%"></div></div>
-      </div>
-      <div class="skill">
-        <label>Photography <span>90%</span></label>
-        <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+        <span>Node.js</span>
+        <div class="bar"><div class="fill" style="width: 80%"></div></div>
+        <span class="percent">80%</span>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+
+
+<!-- <section id="skills" class="skills">
+  <div class="section-header">
+    <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+    <p class="section-subtitle">Technologies I've mastered through years of practice</p>
+  </div>
+  
+  <div class="skills-container">
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fab fa-html5"></i>
+      </div>
+      <div class="skill-details">
+        <h3>HTML5</h3>
+        <div class="progress-container">
+          <div class="progress-bar" data-level="95">
+            <div class="progress-fill"></div>
+            <span class="progress-text">95%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fab fa-css3-alt"></i>
+      </div>
+      <div class="skill-details">
+        <h3>CSS3</h3>
+        <div class="progress-container">
+          <div class="progress-bar" data-level="90">
+            <div class="progress-fill"></div>
+            <span class="progress-text">90%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fab fa-react"></i>
+      </div>
+      <div class="skill-details">
+        <h3>React</h3>
+        <div class="progress-container">
+          <div class="progress-bar" data-level="90">
+            <div class="progress-fill"></div>
+            <span class="progress-text">90%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fab fa-node-js"></i>
+      </div>
+      <div class="skill-details">
+        <h3>Node.js</h3>
+        <div class="progress-container">
+          <div class="progress-bar" data-level="85">
+            <div class="progress-fill"></div>
+            <span class="progress-text">85%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fab fa-js"></i>
+      </div>
+      <div class="skill-details">
+        <h3>JavaScript</h3>
+        <div class="progress-container">
+          <div class="progress-bar" data-level="85">
+            <div class="progress-fill"></div>
+            <span class="progress-text">85%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fab fa-wordpress"></i>
+      </div>
+      <div class="skill-details">
+        <h3>WordPress</h3>
+        <div class="progress-container">
+          <div class="progress-bar" data-level="90">
+            <div class="progress-fill"></div>
+            <span class="progress-text">90%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fas fa-paint-brush"></i>
+      </div>
+      <div class="skill-details">
+        <h3>UI/UX Design</h3>
+        <div class="progress-container">
+          <div class="progress-bar" data-level="95">
+            <div class="progress-fill"></div>
+            <span class="progress-text">95%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="skill-card">
+      <div class="skill-icon">
+        <i class="fas fa-camera"></i>
+      </div>
+      <div class="skill-details">
+        <h3>Photography</h3>
+        <div class="progress-container">
+          <div class="progress-bar" data-level="90">
+            <div class="progress-fill"></div>
+            <span class="progress-text">90%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
 
 
 
@@ -128,70 +265,75 @@
 
 
 
-<section class="pq">
+<section class="projects-section">
+  <h1 id="projects" class="section-title">My Projects</h1>
+  <div class="card-container">
+    <div class="project-card">
+      <div class="card-image">
+        <img src="images/Screenshot 2025-05-26 162632.png" alt="Climate website landing page" loading="lazy">
+      </div>
+      <div class="card-content">
+        <h3>Climate Website</h3>
+        <p>An informative website about climate change and sustainability</p>
+        <a href="https://tianaj.iipghstudent.com/climate/" class="view-button">View Website</a>
+      </div>
+    </div>
 
-  <h1 id="projects">My Projects</h1>
-<div class="cardContainer">
+    <div class="project-card">
+      <div class="card-image">
+        <img src="images/Screenshot 2025-04-28 192604.png" alt="Web company website landing page" loading="lazy">
+      </div>
+      <div class="card-content">
+        <h3>Web Company Website</h3>
+        <p>A modern website for a web development company</p>
+        <a href="https://webapp-phi-virid.vercel.app/" class="view-button">View Website</a>
+      </div>
+    </div>
 
-    <div class="card">
-      <img src="images/Screenshot 2025-05-26 162632.png" alt="Image of website landing page">
-          <div class="cardContent">
-              <p>Climate website</p>
-                   <a href="https://tianaj.iipghstudent.com/climate/" class="readMore">View Website</a>
-          
-          </div>
+    <div class="project-card">
+      <div class="card-image">
+        <img src="images/Screenshot 2025-04-14 162540.png" alt="Tourism website landing page" loading="lazy">
+      </div>
+      <div class="card-content">
+        <h3>Tourism Website</h3>
+        <p>Showcasing beautiful destinations for travelers</p>
+        <a href="https://tegahtianasbtec.vercel.app" class="view-button">View Website</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-image">
+        <img src="images/Screenshot 2025-03-25 082526.png" alt="Company website landing page" loading="lazy">
+      </div>
+      <div class="card-content">
+        <h3>Company Website</h3>
+        <p>A professional corporate website design</p>
+        <a href="https://expand-boss.vercel.app/#" class="view-button">View Website</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-image">
+        <img src="images/Screenshot 2025-03-25 090346.png" alt="Northern Ghana website landing page" loading="lazy">
+      </div>
+      <div class="card-content">
+        <h3>Northern Region Website</h3>
+        <p>Promoting tourism in Northern Ghana</p>
+        <a href="https://tourism-eight-vert.vercel.app" class="view-button">View Website</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="card-image">
+        <img src="images/Screenshot 2025-02-16 233447.png" alt="Fashion website landing page" loading="lazy">
+      </div>
+      <div class="card-content">
+        <h3>Fashion Website</h3>
+        <p>A stylish e-commerce platform for fashion</p>
+        <a href="#" class="view-button">View Website</a>
+      </div>
+    </div>
   </div>
-
-    <div class="card">
-      <img src="images/Screenshot 2025-04-28 192604.png" alt="Image of website landing page">
-          <div class="cardContent">
-              <p>Web-Company Website</p>
-                   <a href="https://webapp-phi-virid.vercel.app/" class="readMore">View Website</a>
-          
-          </div>
-  </div>
-
-  <div class="card">
-    <img src="images/Screenshot 2025-04-14 162540.png" alt="Image of Tourism website landing page">
-        <div class="cardContent">
-            <p>Tourism Website</p>
-                 <a href="https://tegahtianasbtec.vercel.app" class="readMore">View Website</a>
-        
-        </div>
-  </div>
-
-    <div class="card">
-      <img src="images/Screenshot 2025-03-25 082526.png" alt="Image of website landing page">
-          <div class="cardContent">
-              <p>Company website</p>
-                   <a href="https://expand-boss.vercel.app/#" class="readMore">View Website</a>
-          
-          </div>
-  </div>
-
-  <div class="card">
-      <img src="images/Screenshot 2025-03-25 090346.png" alt="Image of Northen Ghana website landing page">
-          <div class="cardContent">
-              <p>Northen Region Website</p>
-                   <a href="https://tourism-eight-vert.vercel.app" class="readMore">View Website</a>
-          
-          </div>
-  </div>
-
-  <div class="card">
-      <img src="images/Screenshot 2025-02-16 233447.png" alt="Image of Fashion website landing page">
-          <div class="cardContent">
-              <p>Fashion Website</p>
-                   <a href="#" class="readMore">View Website</a>
-          
-          </div>
-  </div>
-
-
-
-
-</div>
-
 </section>
 
 
@@ -204,8 +346,8 @@
 
 
   <section class="section" id="testimonial">
-    <h2 class="section-title">Client <span style="color:#ff0073">Testimonials</span></h2>
-    <p class="page5-p">See how our digital marketing agency helped <br> others achieve their goals</p>
+    <h2 class="section-title"><span style="color:#ff0073">Testimonial</span></h2>
+    <p class="page5-p">Real feedback from amazing people I've had the pleasure of building <br> digital experiences with.</p>
 
     <div class="creed-grid">
 
@@ -314,10 +456,12 @@
     <section id="contact" class="ccontact">
         <div class="ccontainer">
             <h2 class="pink">Get In Touch</h2>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
+                <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                <input type="hidden" name="access_key" value="5046c113-1e30-4125-af24-6074f7cee296" />
+                <input type="hidden" name="subject" value="MY PORTFOLIO">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" name="message" required></textarea>
                 <button type="submit" class="btn">Send Message</button>
             </form>
         </div>
@@ -365,9 +509,7 @@
             <h4>Professional Inquiries</h4>
             <p>I'm available for freelance opportunities, collaborations, and professional engagements.</p>
             <form>
-              <!-- <input type="email" placeholder="Enter your email" required /> -->
               <a href="mailto:emmanuella@example.com" class="btn cme">Contact Me</a>
-              <!-- <button type="submit">Subscribe</button> -->
             </form>
           </div>
         </div>
@@ -383,21 +525,118 @@
         </div>
       </footer>
     
-      <script>
-    window.addEventListener("scroll", () => {
-      document.querySelectorAll(".reveal").forEach(el => {
-        const top = el.getBoundingClientRect().top;
-        const trigger = window.innerHeight * 0.85;
-    
-        if (top < trigger) {
-          el.classList.add("active");
+   <script>
+    // Intersection Observer for scroll animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
         }
       });
+    }, {
+      threshold: 0.1
     });
-    
+
+    document.querySelectorAll('.reveal').forEach(el => {
+      observer.observe(el);
+    });
+
+    // Kebab menu toggle
     function toggleMenu() {
       document.getElementById('nav').classList.toggle('active');
+      document.querySelector('.kebab-menu').classList.toggle('active');
     }
+
+    // Close menu when clicking on a nav link
+    document.querySelectorAll('#nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav').classList.remove('active');
+        document.querySelector('.kebab-menu').classList.remove('active');
+      });
+    });
+
+
+
+
+
+
+
+
+// Add this script for scroll animations
+document.addEventListener('DOMContentLoaded', function() {
+  // Intersection Observer for scroll animations
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+        
+        // Animate progress bars
+        if (entry.target.classList.contains('skills')) {
+          const progressBars = entry.target.querySelectorAll('.progress-bar');
+          progressBars.forEach(bar => {
+            const level = bar.getAttribute('data-level');
+            const fill = bar.querySelector('.progress-fill');
+            fill.style.width = `${level}%`;
+          });
+        }
+      }
+    });
+  }, observerOptions);
+
+  // Observe elements
+  const sections = document.querySelectorAll('.section-header, .skill-card');
+  sections.forEach(section => {
+    observer.observe(section);
+  });
+
+  // Add Font Awesome if not already loaded
+  if (!document.querySelector('#font-awesome')) {
+    const faLink = document.createElement('link');
+    faLink.id = 'font-awesome';
+    faLink.rel = 'stylesheet';
+    faLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css';
+    document.head.appendChild(faLink);
+  }
+});
+
+
+
+
+// Add this script for scroll animations
+document.addEventListener('DOMContentLoaded', function() {
+  // Observe section title
+  const sectionTitle = document.querySelector('.section-title');
+  const observerTitle = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate');
+      }
+    });
+  }, { threshold: 0.5 });
+
+  observerTitle.observe(sectionTitle);
+
+  // Observe project cards
+  const projectCards = document.querySelectorAll('.project-card');
+  const observerCards = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  projectCards.forEach(card => {
+    observerCards.observe(card);
+  });
+});
+
+
   </script>
 </body>
 </html>
