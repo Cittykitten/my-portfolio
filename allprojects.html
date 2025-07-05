@@ -1,1 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Design Projects - Emmanuella Esinam Tegah</title>
+    <link rel="stylesheet" href="allprojects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Emmanuella Esinam Tegah</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/projects" class="active">Projects</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </button>
+        </div>
+    </header>
 
+    <main class="projects-page">
+        <section class="page-header">
+            <div class="container">
+                <h1>My Design Projects</h1>
+                <p>A collection of my recent web design and development work</p>
+            </div>
+        </section>
+
+        <section class="projects-controls">
+            <div class="container">
+                <div class="search-filter">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Search projects...">
+                    </div>
+                    <div class="filter-dropdown">
+                        <select id="category-filter">
+                            <option value="all">All Categories</option>
+                            <option value="web-design">Web Design</option>
+                            <option value="ui-ux">UI/UX</option>
+                            <option value="ecommerce">E-commerce</option>
+                            <option value="mobile">Mobile Apps</option>
+                        </select>
+                    </div>
+                    <div class="sort-dropdown">
+                        <select id="sort-projects">
+                            <option value="newest">Newest First</option>
+                            <option value="oldest">Oldest First</option>
+                            <option value="name">Project Name (A-Z)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-grid">
+            <div class="container">
+                <div class="grid">
+                    <!-- Project Card 1 -->
+                    <article class="project-card" data-category="ecommerce" data-date="2022-11">
+                        <a href="/projects/jewelry-store">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Luxury Jewelry E-commerce">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Luxury Jewelry Store</h3>
+                                <p class="project-description">High-end jewelry e-commerce with immersive product views</p>
+                                <ul class="project-tags">
+                                    <li>Web Design</li>
+                                    <li>E-commerce</li>
+                                    <li>Shopify</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2022</span>
+                                    <span class="client">Client: Aurelia Jewelry</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card" data-category="ui-ux" data-date="2025-03">
+                        <a href="https://men-d-official.vercel.app/">
+                            <div class="project-image">
+                                <img src="images/Screenshot 2025-07-01 172824.png" alt="Fitness App UI Design">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>MenD Garage</h3>
+                                <p class="project-description">Health tracking app with personalized dashboard</p>
+                                <ul class="project-tags">
+                                    <li>Web-design</li>
+                                    <li>Mobile</li>
+                                    <li>Adobe XD</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2025</span>
+                                    <span class="client">Client: MenD</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card" data-category="ecommerce" data-date="2025-01">
+                        <a href="https://mentalhealth-flame-ten.vercel.app/">
+                            <div class="project-image">
+                                <img src="images/Screenshot 2025-07-04 141838.png" alt="Luxury Jewelry E-commerce">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Mental-health</h3>
+                                <p class="project-description">High-end jewelry e-commerce with immersive product views</p>
+                                <ul class="project-tags">
+                                    <li>Web Design</li>
+                                    <li>health</li>
+                                    <li>Shopify</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2025</span>
+                                    <span class="client">Client: Mindful</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Card 4 -->                    
+                     <article class="project-card" data-category="web-design" data-date="2025-01">
+                        <a href="https://webapp-phi-virid.vercel.app/">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Eco Market Website Design">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Web-Development Company website</h3>
+                                <p class="project-description">Sustainable e-commerce platform with custom UI components</p>
+                                <ul class="project-tags">
+                                    <li>Web Design</li>
+                                    <li>E-commerce</li>
+                                    <li>Figma</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2025</span>
+                                    <span class="client">web-Dev.com</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+
+
+                    <!-- Project Card 5 -->
+                    <article class="project-card" data-category="ecommerce" data-date="2022-11">
+                        <a href="https://ntiappiah-ella-portfolio.vercel.app/">
+                            <div class="project-image">
+                                <img src="images/Screenshot 2025-06-06 061917.png" alt="Luxury Jewelry E-commerce">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>EAN Portfolio</h3>
+                                <p class="project-description">High-end jewelry e-commerce with immersive product views</p>
+                                <ul class="project-tags">
+                                    <li>Web Design</li>
+                                    <li>E-commerce</li>
+                                    <li>Shopify</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2025</span>
+                                    <span class="client">Ntiappiah</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Card 6 -->
+                    <article class="project-card" data-category="ecommerce" data-date="2025-11">
+                        <a href="https://foodrecipe-sable.vercel.app/">
+                            <div class="project-image">
+                                <img src="images/Screenshot 2025-07-02 154445.png" alt="Luxury Jewelry E-commerce">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>FlavourFusion</h3>
+                                <p class="project-description">High-end jewelry e-commerce with immersive product views</p>
+                                <ul class="project-tags">
+                                    <li>Web Design</li>
+                                    <li>E-commerce</li>
+                                    <li>Shopify</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2025</span>
+                                    <span class="client">FlavourFusion</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Card 7 -->
+                    <article class="project-card" data-category="ecommerce" data-date="2024-11">
+                        <a href="https://expand-boss.vercel.app/">
+                            <div class="project-image">
+                                <img src="images/expandboss.png" alt="Luxury Jewelry E-commerce">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Expand Boss</h3>
+                                <p class="project-description">High-end jewelry e-commerce with immersive product views</p>
+                                <ul class="project-tags">
+                                    <li>Web Design</li>
+                                    <li>E-commerce</li>
+                                    <li>Shopify</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2024</span>
+                                    <span class="client">Expand-boss</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Card 8 -->
+                    <article class="project-card" data-category="ecommerce" data-date="2024-10">
+                        <a href="https://tegahtianasbtec.vercel.app">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Luxury Jewelry E-commerce">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Northern Ghana</h3>
+                                <p class="project-description">High-end jewelry e-commerce with immersive product views</p>
+                                <ul class="project-tags">
+                                    <li>Web Design</li>
+                                    <li>E-commerce</li>
+                                    <li>Shopify</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2024</span>
+                                    <span class="client">Northen-Ghana</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Card 9 -->
+                    <article class="project-card" data-category="ecommerce" data-date="2022-11">
+                        <a href="/projects/jewelry-store">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Luxury Jewelry E-commerce">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Luxury Jewelry Store</h3>
+                                <p class="project-description">High-end jewelry e-commerce with immersive product views</p>
+                                <ul class="project-tags">
+                                    <li>Web Design</li>
+                                    <li>E-commerce</li>
+                                    <li>Shopify</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2022</span>
+                                    <span class="client">Client: Aurelia Jewelry</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Card 10 -->
+                    <article class="project-card" data-category="ecommerce" data-date="2022-11">
+                        <a href="/projects/jewelry-store">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Luxury Jewelry E-commerce">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Luxury Jewelry Store</h3>
+                                <p class="project-description">High-end jewelry e-commerce with immersive product views</p>
+                                <ul class="project-tags">
+                                    <li>Web Design</li>
+                                    <li>E-commerce</li>
+                                    <li>Shopify</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2022</span>
+                                    <span class="client">Client: Aurelia Jewelry</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Card 11 -->
+                    <article class="project-card" data-category="ecommerce" data-date="2022-11">
+                        <a href="https://ablordejasonportfolio-ten.vercel.app/">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Luxury Jewelry E-commerce">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Luxury Jewelry Store</h3>
+                                <p class="project-description">High-end jewelry e-commerce with immersive product views</p>
+                                <ul class="project-tags">
+                                    <li>Web Design</li>
+                                    <li>E-commerce</li>
+                                    <li>Shopify</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2022</span>
+                                    <span class="client">Client: Aurelia Jewelry</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                    <!-- Project Card 12 -->
+                    <article class="project-card" data-category="ecommerce" data-date="2022-11">
+                        <a href="/projects/jewelry-store">
+                            <div class="project-image">
+                                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Luxury Jewelry E-commerce">
+                                <div class="overlay">
+                                    <span>View Project</span>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h3>Luxury Jewelry Store</h3>
+                                <p class="project-description">High-end jewelry e-commerce with immersive product views</p>
+                                <ul class="project-tags">
+                                    <li>Web Design</li>
+                                    <li>E-commerce</li>
+                                    <li>Shopify</li>
+                                </ul>
+                                <div class="project-meta">
+                                    <span class="year">2022</span>
+                                    <span class="client">Client: Aurelia Jewelry</span>
+                                </div>
+                            </div>
+                        </a>
+                    </article>
+
+                </div>
+                
+                <div class="load-more">
+                    <button id="load-more-btn">Load More Projects</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to start your project?</h2>
+                <p>I'm available for new design projects. Let's create something amazing together!</p>
+                <a href="index.html/contact" class="btn-primary">Get in Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Emmanuella Esinam Tegah</h3>
+                    <p>Creating beautiful, functional digital experiences that drive results.</p>
+                    <div class="social-icons">
+                        <a href="https://m.facebook.com/profile.php?id=61573284841448&name=xhp_nt_fbaction_open_user"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/Tegah_Tiana"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/tegah_tiana/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/tiana-tegah-39b887338"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="allprojects.html">Projects</a></li>
+                        <li><a href="index.html/#about">About</a></li>
+                        <li><a href="index.html/#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Skills</h4>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Frontend Development</a></li>
+                        <li><a href="#">UI/UX</a></li>
+                        <li><a href="#">WordPress</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 All rights reserved | <a href="#"><span class="pink">Tegah Tiana</span></a></p>
+            </div>
+        </div>
+    </footer>
+
+<script src="allprojects.js"></script>
+</body>
+</html>
